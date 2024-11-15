@@ -5,7 +5,7 @@
     "enableGrubsDrop": true,
     "enableLeechesDrop": true,
     "neutralFishBehavior": false,
-    "displayAllFishVariantInCreativeTab": false,
+    "displayAllFishVariantInCreativeTab": true,
     "enableFishItemWithAllVariant": false,
     "displayTrophySpawnEggInCreativeTab": false
   },

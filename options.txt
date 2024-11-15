@@ -12,7 +12,7 @@ darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:1.0
 prioritizeChunkUpdates:0
-fullscreen:false
+fullscreen:true
 gamma:0.5
 graphicsMode:1
 guiScale:3
@@ -20,7 +20,7 @@ maxFps:260
 mipmapLevels:0
 narrator:0
 particles:0
-reducedDebugInfo:false
+reducedDebugInfo:true
 renderClouds:"true"
 renderDistance:5
 simulationDistance:5
@@ -49,7 +49,7 @@ damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:false
 resourcePacks:["vanilla","fabric","file/Серверный"]
-incompatibleResourcePacks:["additionalstructures","betteradvancements","biolith","carryon","deeperdarker","display_case","paradise_lost","primalwinter","terrablender","villagerhats"]
+incompatibleResourcePacks:["betteradvancements","biolith","deeperdarker","display_case","paradise_lost","primalwinter","terrablender","villagerhats"]
 lastServer:
 lang:ru_ru
 chatVisibility:0
@@ -121,7 +121,6 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_key.carry.desc:key.keyboard.unknown
 key_key.deeperdarker.boost:key.keyboard.b
 key_key.deeperdarker.transmit:key.keyboard.x
 key_key.modmenu.open_menu:key.keyboard.unknown
@@ -135,7 +134,7 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-soundCategory_master:0.5016556291390728
+soundCategory_master:0.10264900662251655
 soundCategory_music:0.025821596244131387
 soundCategory_record:1.0
 soundCategory_weather:0.15492957746478872

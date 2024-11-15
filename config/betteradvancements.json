@@ -7,7 +7,7 @@
   "showDebugCoordinates": false,
   "orderTabsAlphabetically": false,
   "uiScaling": 100,
-  "criteriaDetail": "Default",
+  "criteriaDetail": "Off",
   "criteriaDetailRequiresShift": false,
   "addInventoryButton": false,
   "defaultDrawDirectLines": false,
