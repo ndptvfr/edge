@@ -1,0 +1,34 @@
+/kill @e[type=!minecraft:player]
+/spawnpoint
+/kill
+/effect give @s environmentz:cooling
+/effect give @s environmentz:comfort
+/kill @e[type=!minecraft:player]
+/effect clear 06e427eb
+/kill @e[type=!minecraft:player]
+/spawnpoint 06e427eb
+/kill
+/kill @e[type=!minecraft:player]
+/execute in eternal_starlight:starlight run tp 0 100 0
+/locate biome eternal_starlight:dark_swamp
+/tp @s 914 65 1176
+/execute in eternal_starlight:starlight run tp 0 100 0
+/tp @s 914 65 1176
+/advancement grant 06e427eb from eternal_starlight:root
+/advancement grant 06e427eb everything
+/kill
+/kill @e[type=!minecraft:player]
+/locate biome terrestria:caldera
+/tp @s -609 78 -353
+/effect give @s minecraft:hunger infinite 5
+/effect give @s minecraft:hunger infinite 50
+/effect give @s minecraft:hunger infinite 90
+/advancement grant 06e427eb everything
+/locate biome terrestria:volcanic_island
+/tp @s -734 101 -3245
+/kill
+/locate biome natures_spirit:tundra
+/tp @s 1001 134 -1776
+/locate structure #minecraft:village
+/tp @s 272 ~ -1936
+/kill c1590a60-3157-427d-97a7-c06c9297d289

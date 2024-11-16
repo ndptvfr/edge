@@ -433,6 +433,8 @@
  "item.mythicmetals.tipped_runite_arrow.effect.luck": "Рунитовая стрела удачи",
  "item.mythicmetals.tipped_runite_arrow.effect.turtle_master": "Рунитовая стрела мастера черепах",
  "item.mythicmetals.tipped_runite_arrow.effect.slow_falling": "Рунитовая стрела медленного падения",
+ "item.mythicmetals.tipped_runite_arrow.effect.hunger": "Рунитовая стрела голода",
+ "item.mythicmetals.tipped_runite_arrow.effect.ice_resistance": "Рунитовая стрела ледостойкости",
 
  
  "item.mythicmetals.tipped_runite_arrow.effect.wind_charged": "Рунитовая стрела ветрового заряда",
