@@ -1,34 +1,50 @@
-/kill @e[type=!minecraft:player]
-/spawnpoint
-/kill
-/effect give @s environmentz:cooling
-/effect give @s environmentz:comfort
-/kill @e[type=!minecraft:player]
-/effect clear 06e427eb
-/kill @e[type=!minecraft:player]
-/spawnpoint 06e427eb
-/kill
-/kill @e[type=!minecraft:player]
-/execute in eternal_starlight:starlight run tp 0 100 0
-/locate biome eternal_starlight:dark_swamp
-/tp @s 914 65 1176
-/execute in eternal_starlight:starlight run tp 0 100 0
-/tp @s 914 65 1176
-/advancement grant 06e427eb from eternal_starlight:root
-/advancement grant 06e427eb everything
-/kill
-/kill @e[type=!minecraft:player]
-/locate biome terrestria:caldera
-/tp @s -609 78 -353
-/effect give @s minecraft:hunger infinite 5
-/effect give @s minecraft:hunger infinite 50
-/effect give @s minecraft:hunger infinite 90
-/advancement grant 06e427eb everything
-/locate biome terrestria:volcanic_island
-/tp @s -734 101 -3245
-/kill
-/locate biome natures_spirit:tundra
-/tp @s 1001 134 -1776
+/locate structure natures_spirit:village_coconut
+/locate structure natures_spirit:village_cypress
+/locate structure minecraft:village_snowy
 /locate structure #minecraft:village
-/tp @s 272 ~ -1936
-/kill c1590a60-3157-427d-97a7-c06c9297d289
+/tp @s -1024 ~ -384
+/tp @e[type=!minecraft:player] 06e427eb
+/kill @e[type=!minecraft:player]
+/time set day
+/spawnpoint @a ~ ~ ~
+/clear @a *
+/kill
+/gamemode survival @a
+/kill
+/kill @a
+/setworldspawn ~ ~ ~
+/time set midnight
+/data get entity 1f9a121a
+/gravitate ~ ~ ~ force
+/gravitate -381 62 101 force
+/fill -354 -64 88 -354 320 88 air
+/fill -354 -63 88 -354 320 88 air
+/fill -354 -63 88 -354 319 88 air
+/fill -354 -64 88 -354 319 88 air
+/gravitate -354 66 88
+/gravitate -354 66 88 force
+/gravitate ~ ~ ~ у
+/gravitate ~ ~ ~ force
+/gravitate ~ ~-1 ~ force
+/gamerule commandBlockOutput false
+/gravitate -384 63 104 force
+/gravitate -383 63 104 force
+/gravitate -385 62 103 force
+/gravitate -384 63 104force
+/gravitate -384 63 104 force
+/gravitate -385 60 103 force
+/gravitate -365 63 91 force
+/effect give @s minecraft:regeneration infinite 255
+/effect clear @s
+/time set midnight
+/time set day
+/time set midnight
+/time set day
+/time set midnight
+/locate structure #minecraft:village
+/tp @s -1088 ~ 192
+/locate structure #minecraft:village
+/kill 090868b1-51a2-4ca6-b1ba-6fe4f4f50e55
+/effect give 06e427eb
+/effect clear 06e427eb
+/kill 515526d3-d32c-47b8-bd72-53171cd554f1

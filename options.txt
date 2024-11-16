@@ -50,7 +50,7 @@ highContrast:false
 narratorHotkey:false
 resourcePacks:["vanilla","fabric","file/Серверный"]
 incompatibleResourcePacks:["betteradvancements","biolith","deeperdarker","display_case","paradise_lost","primalwinter","terrablender","villagerhats"]
-lastServer:
+lastServer:forest-laptop.eu.e4mc.link
 lang:ru_ru
 chatVisibility:0
 chatOpacity:1.0
@@ -124,7 +124,6 @@ key_key.hotbar.9:key.keyboard.9
 key_key.deeperdarker.boost:key.keyboard.b
 key_key.deeperdarker.transmit:key.keyboard.x
 key_key.energizedpower.teleporter.use:key.keyboard.v
-key_key.eternal_starlight.switch_crest:key.keyboard.h
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
@@ -136,6 +135,10 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.wireframe:key.keyboard.unknown
 soundCategory_master:0.10264900662251655
 soundCategory_music:0.025821596244131387
 soundCategory_record:1.0
